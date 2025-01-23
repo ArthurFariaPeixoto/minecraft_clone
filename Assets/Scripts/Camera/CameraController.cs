@@ -11,8 +11,8 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         // Trava o cursor no centro da tela e o oculta
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
     }
 
     void Update()
