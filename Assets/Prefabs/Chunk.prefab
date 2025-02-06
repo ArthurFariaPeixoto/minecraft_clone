@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3294902565543368668}
   - component: {fileID: 5664951781763307257}
   - component: {fileID: 9092221819608544572}
+  - component: {fileID: -4567206416459373050}
   m_Layer: 3
   m_Name: Chunk
   m_TagString: Untagged
@@ -124,3 +125,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showGizmo: 0
+--- !u!114 &-4567206416459373050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913995619199142299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b44bd122cc79d304e9707ab98f66ad21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderDistance: 1

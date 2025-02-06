@@ -36,10 +36,6 @@ public class Player : MonoBehaviour
         // Set the raycast to be slightly beneath the player's feet
         playerHeight = GetComponent<BoxCollider>().size.y * transform.localScale.y;
         raycastDistance = (playerHeight / 2) + 0.2f;
-
-        // // Hides the mouse
-        // Cursor.lockState = CursorLockMode.Locked;
-        // Cursor.visible = false;
     }
     void Update()
     {

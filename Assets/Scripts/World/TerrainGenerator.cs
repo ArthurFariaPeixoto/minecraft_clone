@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class TerrainGenerator : MonoBehaviour
 {
-    public int mapSizeInChunks = 6;
+    public int mapSizeInChunks = 17;
     public int chunkSize = 32, chunkHeight = 32;
-    public int waterThreshold = 50;
+    public int waterThreshold = 10;
     public float noiseScale = 0.03f;
     public GameObject chunkPrefab;
 

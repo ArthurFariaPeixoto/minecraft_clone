@@ -13,6 +13,7 @@ public class CameraController : MonoBehaviour
         // Trava o cursor no centro da tela e o oculta
         // Cursor.lockState = CursorLockMode.Locked;
         // Cursor.visible = false;
+        Camera.main.useOcclusionCulling = false;
     }
 
     void Update()
