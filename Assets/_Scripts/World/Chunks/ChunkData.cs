@@ -4,12 +4,12 @@ public class ChunkData
     public BlockType[] blocks;
     public int chunkSize = 32;
     public int chunkHeight = 32;
-    public TerrainGenerator worldReference;
+    public World worldReference;
     public Vector3Int worldPosition;
 
     public bool modifiedByPlayer = false;
 
-    public ChunkData(int chunkSize, int chunkHeight, TerrainGenerator world, Vector3Int worldPosition)
+    public ChunkData(int chunkSize, int chunkHeight, World world, Vector3Int worldPosition)
     {
         this.chunkSize = chunkSize;
         this.chunkHeight = chunkHeight;

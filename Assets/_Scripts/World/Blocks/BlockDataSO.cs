@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "BlockData", menuName = "Data/Block Data")]
+[CreateAssetMenu(fileName = "BlockData", menuName = "ScriptableObjects/Block Data")]
 public class BlockDataSO : ScriptableObject
 {
     public float textureSizeX, textureSizeY;

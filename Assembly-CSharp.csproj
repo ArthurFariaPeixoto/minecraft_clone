@@ -65,23 +65,31 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\World\Blocks\DirectionExtensions.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
-    <Compile Include="Assets\Scripts\World\Blocks\BlockDataManager.cs" />
-    <Compile Include="Assets\Scripts\World\Chunks\ChunkRender.cs" />
-    <Compile Include="Assets\Scripts\World\TerrainGenerator.cs" />
-    <Compile Include="Assets\Scripts\World\Chunks\Chunk.cs" />
-    <Compile Include="Assets\Scripts\World\Blocks\Direction.cs" />
-    <Compile Include="Assets\Scripts\World\Cullings\ChunkCulling.cs" />
-    <Compile Include="Assets\Scripts\World\Cullings\CullingManager.cs" />
-    <Compile Include="Assets\Scripts\World\Meshes\MeshData.cs" />
-    <Compile Include="Assets\GameSettings.cs" />
-    <Compile Include="Assets\Scripts\World\Blocks\BlockDataSO.cs" />
-    <Compile Include="Assets\Scripts\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\World\Blocks\BlockType.cs" />
-    <Compile Include="Assets\Scripts\World\Blocks\BlockHelper.cs" />
-    <Compile Include="Assets\Scripts\GameConfig.cs" />
-    <Compile Include="Assets\Scripts\World\Chunks\ChunkData.cs" />
+    <Compile Include="Assets\_Scripts\World\Blocks\BlockHelper.cs" />
+    <Compile Include="Assets\_Scripts\World\Cullings\ChunkCulling.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\BlockLayers\UndergroundLayerHandler.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\BlockLayers\AirLayerHandler.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\World.cs" />
+    <Compile Include="Assets\_Scripts\Player\Camera\CameraController.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\BlockLayers\BlockLayerHandler.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\BlockLayers\SurfaceLayerHandler.cs" />
+    <Compile Include="Assets\_Scripts\World\Blocks\BlockDataSO.cs" />
+    <Compile Include="Assets\_Scripts\GameSettings.cs" />
+    <Compile Include="Assets\_Scripts\World\Blocks\BlockType.cs" />
+    <Compile Include="Assets\_Scripts\World\Chunks\Chunk.cs" />
+    <Compile Include="Assets\_Scripts\World\Noises\NoiseData.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\BiomeGenerator.cs" />
+    <Compile Include="Assets\_Scripts\Player\Player.cs" />
+    <Compile Include="Assets\_Scripts\World\Blocks\Direction.cs" />
+    <Compile Include="Assets\_Scripts\World\Meshes\MeshData.cs" />
+    <Compile Include="Assets\_Scripts\World\Cullings\CullingManager.cs" />
+    <Compile Include="Assets\_Scripts\World\Blocks\BlockDataManager.cs" />
+    <Compile Include="Assets\_Scripts\World\Chunks\ChunkData.cs" />
+    <Compile Include="Assets\_Scripts\World\Blocks\DirectionExtensions.cs" />
+    <Compile Include="Assets\_Scripts\World\Chunks\ChunkRender.cs" />
+    <Compile Include="Assets\_Scripts\World\Noises\CustomNoise.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\BlockLayers\WaterLayerHandler.cs" />
+    <Compile Include="Assets\_Scripts\World\WorldGenerator\TerrainGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\_Textures\Kenny Assets Voxel pack\Spritesheets\spritesheet_characters.xml" />

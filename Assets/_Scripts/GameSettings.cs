@@ -5,6 +5,6 @@ public class GameSettings : MonoBehaviour
     void Awake()
     {
         QualitySettings.vSyncCount = 0; // Desativa V-Sync
-        Application.targetFrameRate = -1; // Define FPS desejado
+        Application.targetFrameRate = 144; // Define FPS desejado
     }
 }

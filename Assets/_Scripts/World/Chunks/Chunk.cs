@@ -93,7 +93,7 @@ public static class Chunk
         return meshData;
     }
 
-    internal static Vector3Int ChunkPositionFromBlockCoords(TerrainGenerator world, int x, int y, int z)
+    internal static Vector3Int ChunkPositionFromBlockCoords(World world, int x, int y, int z)
     {
         Vector3Int pos = new Vector3Int
         {
